@@ -1,0 +1,156 @@
+.mainContainer {
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logoText {
+    padding-left: 10px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #272343;
+}
+
+.logoImage {
+    width: 26px;
+    height: 23px;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #272343;
+
+}
+
+.left {
+    width: 350px;
+}
+
+.footerIcon {
+    width: 20px;
+    padding: 20px;
+}
+
+.footerIcon:hover {
+    width: 20px;
+    border-radius: 40px;
+    border: #007580 solid 1px;
+}
+
+.socialMedia {
+    padding-top: 10px;
+}
+
+.right {
+    width: 420px;
+}
+
+.newsLetter {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    color: #9A9CAA;
+}
+
+.emailContaier {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.subscribe {
+    background-color: #007580;
+    margin-left: 10px;
+    width: 127px;
+    height: 46px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.footerRightText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #272343;
+    opacity: 60%;
+}
+
+.footerAreaText {
+    border-top: 1px solid rgb(236, 233, 233);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #9A9CAA;
+    padding-bottom: 20px;
+}
+
+.designerName {
+    color: #272343;
+}
+
+@media (max-width:950px) {
+
+    .mainContainer {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right {
+        order: -1;
+    }
+
+    .newsLetter {
+        font-size: 16px;
+    }
+
+    .emailContaier {
+        margin-top: 20px;
+        width: 180%;
+    }
+
+    .emailInput {
+        width: 80%;
+        height: 60px;
+    }
+
+    .subscribe {
+        width: 40%;
+        height: 60px;
+    }
+
+    .footerRightText {
+        padding-top: 10;
+        font-size: 18px;
+        line-height: 22px;
+        width: 180%;
+
+    }
+
+    .description {
+        width: 180%;
+    }
+
+    .left {
+        margin-bottom: 20px;
+    }
+}

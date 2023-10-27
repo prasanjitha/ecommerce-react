@@ -1,0 +1,35 @@
+.container {
+    background-color: rgb(236, 233, 233);
+    padding-top: 5%;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+
+.grid_item {
+    padding: 20px;
+    margin-right: 160px;
+}
+
+.loading_spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.emptyFav {
+    text-align: center;
+    padding-bottom: 10%;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.addBtn {
+    background-color: #007580;
+}

@@ -1,0 +1,22 @@
+.myCart {
+    padding-top: 8%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bottomBar {
+    background-color: rgb(236, 233, 233);
+    margin-top: 60px;
+    height: 40px;
+
+}
+
+.emptyCart {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    height: 60vh;
+}

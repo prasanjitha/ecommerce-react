@@ -1,0 +1,41 @@
+.checkoutContainer {
+    width: 260px;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
+.cartItems {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #1A1F36;
+}
+
+.salesTax {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #697386;
+}
+
+.chackOutBtn {
+    margin-top: 20px;
+    width: 240px;
+    height: 46px;
+    background-color: #029FAE;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center;
+    align-self: flex-end;
+
+}

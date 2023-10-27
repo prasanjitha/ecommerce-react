@@ -1,0 +1,52 @@
+.mainContainer {
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    width: 666px;
+    height: 380px;
+    background-color: #ffffff;
+    /* Set a background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+.signInText {
+    font-weight: 600;
+    font-size: 32px;
+    color: #272343;
+}
+
+.input {
+    height: 50px;
+    width: 600px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.checkBox {
+    color: #636270;
+    font-weight: 400;
+    font-size: 14px;
+    align-self: flex-start;
+    margin-bottom: 20px;
+}
+
+.signinBtn {
+    background-color: #029FAE;
+    height: 42px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 17px;
+    color: white;
+}

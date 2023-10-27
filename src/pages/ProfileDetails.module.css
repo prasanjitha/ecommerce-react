@@ -1,0 +1,32 @@
+.mainContainer {
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.contaier {
+    display: flex;
+    flex-direction: row;
+}
+
+.profileDetails {
+    margin-left: 80px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.infoDetails {
+    padding-left: 20px;
+}
+
+.profileImage {
+    width: 512px;
+    height: 512px;
+    border-radius: 256px;
+}

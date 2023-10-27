@@ -1,0 +1,158 @@
+.mainContainer {
+    width: 312;
+    height: 430;
+}
+
+.mainImage {
+    border-radius: 8px;
+    width: 312px;
+    height: 312px;
+}
+
+.cartWhite {
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    background-color: #029FAE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.cartAdded {
+    cursor: pointer;
+}
+
+.cardFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #029FAE;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.subTitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #272343;
+
+}
+
+.priceContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.discoutPrice {
+    font-size: 20px;
+    font-weight: 400;
+    color: #9A9CAA;
+    padding-left: 10px;
+    text-decoration: line-through;
+}
+
+.textButton {
+    position: absolute;
+    width: 50px;
+    height: 26px;
+    border-radius: 4px;
+    background-color: #01AD5A;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 2px 8px;
+    top: 20px;
+    left: 20px;
+}
+
+.btnText {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
+.fevButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+}
+
+.fevContainer {
+    border-radius: 8px;
+    padding: 12px;
+    background-color: white !important;
+}
+
+@media (max-width:950px) {
+
+    .mainImage {
+        border-radius: 8px;
+        width: 789px !important;
+        height: 502px !important;
+        object-fit: contain;
+    }
+
+    .cartWhite {
+        width: 74px;
+        height: 54px;
+        border-radius: 8px;
+    }
+
+    .textButton {
+        width: 80px;
+        height: 36px;
+        border-radius: 4px;
+    }
+
+    .btnText {
+        font-size: 18px;
+        font-weight: 800;
+    }
+
+    .fevBoarder {
+        border-radius: 8px;
+        padding: 18px;
+    }
+
+    .fevContainer {
+        width: 35px;
+
+    }
+
+    .cartAdded {
+        width: 74px;
+        height: 54px;
+        border-radius: 8px;
+    }
+
+    .title {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .subTitle {
+        font-size: 22px;
+
+    }
+
+    .discoutPrice {
+        font-size: 22px;
+        font-weight: 600;
+    }
+}
